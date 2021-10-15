@@ -85,8 +85,8 @@ form .login:hover {
 
 .table,
 th,
-td,
-button {
+td
+ {
   border: 1px black solid;
   border-radius: 20px;
 }
@@ -94,6 +94,7 @@ button {
 .table {
   border-spacing: 10px 10px;
   width: 80%;
+  margin-top: 20%;
 }
 
 th {
@@ -121,4 +122,14 @@ button {
   background-color: #24a86b;
   text-align: center;
   padding: 5px;
+  width: 80px;
+  height: 40px;
+  font-size:12px;
+  border: 1px black solid;
+
+}
+
+.addUser{
+  position: fixed;
+  right: 10px;
 }
